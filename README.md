@@ -13,10 +13,10 @@ the component will become more efficient and user-friendly in future updates.
 
 Methods:
 
-ChangeLanguage: Translates the application into the specified language.
+ChangeLanguage: Translates the application into the specified language.  
 MyLangs1.ChangeLanguage('Turkish');
 
-ChangeToActiveLanguage: Changes to the currently active language.
+ChangeToActiveLanguage: Changes to the currently active language.  
 MyLangs1.DefaultLanguage := 'Japanese';
 MyLangs1.ChangeToDefaultLanguage;
 
