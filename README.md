@@ -17,15 +17,15 @@ ChangeLanguage: Translates the application into the specified language.
 MyLangs1.ChangeLanguage('Turkish');
 
 ChangeToActiveLanguage: Changes to the currently active language.  
-MyLangs1.DefaultLanguage := 'Japanese';
+MyLangs1.DefaultLanguage := 'Japanese';  
 MyLangs1.ChangeToDefaultLanguage;
 
-Sample Usage:
-ComboBox1.Items.Assign(MyLangs1.Languages);
+Sample Usage:  
+ComboBox1.Items.Assign(MyLangs1.Languages);  
 ComboBox1.Items.Insert(0, 'DefaultValue');
 
-MyLangs1.ChangeLanguage(ComboBox1.Items[ComboBox1.ItemIndex]);
-Or
+MyLangs1.ChangeLanguage(ComboBox1.Items[ComboBox1.ItemIndex]);  
+Or  
 MyLangs1.ChangeLanguage('English');
 
 
