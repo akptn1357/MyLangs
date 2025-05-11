@@ -47,9 +47,6 @@ begin
     Columns[I].Width := Max(TitleWidth, ContentWidth);
   end;
 
-
-
-
 end;
 
 end.
