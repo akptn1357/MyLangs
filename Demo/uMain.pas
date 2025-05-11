@@ -27,8 +27,6 @@ type
     ListBox2: TListBox;
     StatusBar1: TStatusBar;
     MyLangs1: TMyLangs;
-    MyLangs2: TMyLangs;
-    MyLangs3: TMyLangs;
     ComboBox2: TComboBox;
 
     procedure FormCreate(Sender: TObject);
@@ -69,6 +67,9 @@ ComboBox2.Items.Assign(MyLangs1.Languages);
 ComboBox2.Items.Insert(0, 'DefaultValue');
 ListBox1.Items.Assign(MyLangs1.Languages);
 ListBox1.Items.Insert(0, 'DefaultValue');
+ComboBox2.ItemIndex:= 0;
+
+
 
 StatusBar1.Panels[0].Text:=
 MyLangs1.DefaultLanguage + ' active language.';

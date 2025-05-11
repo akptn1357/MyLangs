@@ -164,8 +164,8 @@ object frmDilDemo: TfrmDilDemo
     Top = 232
     Width = 169
     Height = 23
+    Style = csDropDownList
     TabOrder = 9
-    Text = 'ComboBox2'
     OnChange = ComboBox2Change
   end
   object MyLangs1: TMyLangs
@@ -336,20 +336,5 @@ object frmDilDemo: TfrmDilDemo
       C616DF10DC1368529D62447328D98074E1D374C5E1B93DA2093FF5B0AB17D614
       518DE01B0F213104C19134E86B124486A0DAECE253CAF777DEA9AD089506BD07
       63C9D4DF9C71CCC7E341087890993B9EC8C403E5787271F152FBFA03B67B43B7}
-  end
-  object MyLangs2: TMyLangs
-    Delimiter = '^@~'
-    Left = 328
-    Top = 140
-  end
-  object MyLangs3: TMyLangs
-    Languages.Strings = (
-      'aqz'
-      'rvfrfrrvr'
-      'nhyn'
-      'klmju')
-    Delimiter = '^@~'
-    Left = 328
-    Top = 212
   end
 end
